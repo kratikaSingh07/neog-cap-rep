@@ -99,7 +99,6 @@ background-color: var(--offwhite-color);
 
 .section h1 {
     text-align: center;
-
 }
 
 .footer{
@@ -111,11 +110,11 @@ background-color: var(--offwhite-color);
 
 .trending-blogs{
     max-width: 50%;
+    display: inline-block;
 }
 
 .trending-blog-img{
     max-width: 80%;
-    margin: 1rem 10rem;
 }
 
 .trending-blogs a{
@@ -124,5 +123,20 @@ background-color: var(--offwhite-color);
 
 .trending-blogs h2{
     max-width: 75%;
-    padding-left: 2rem;
+}
+
+.blog-heading{
+    text-align: left !important; 
+}
+
+.blogs-list{
+    max-width: 50%;
+}
+
+.blog-section{
+    display: flex;
+}
+
+.blog-list-section {
+    padding: 2rem 2rem 0rem 2rem;
 }
