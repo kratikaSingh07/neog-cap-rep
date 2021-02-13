@@ -117,7 +117,7 @@ background-color: var(--offwhite-color);
     max-width: 80%;
 }
 
-.trending-blogs a{
+.trending-blogs, .blog-list-section a{
     text-decoration: none;
 }
 
